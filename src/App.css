@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.card {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+}
+.pagination_wrapper{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.page-item{
+    cursor: pointer;
+    margin:5px;
+    padding:5px;
+}
+
+.highlight{
+    background-color: #c8c8c8;
+    border-radius: 2px;
+}
+
+
+
+/* search css */
+.seach_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seach_wrapper >label{
+    margin-right: 10px;
+}
+
+
+/* filter */
+
+.filter div{
+    margin-bottom:5px;
+}
